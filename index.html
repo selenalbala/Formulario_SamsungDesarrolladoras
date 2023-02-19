@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./style.css"/>
+		<script defer src="./index.js"></script>
+		<title>Registration Form - Selena Albalá</title>
+	</head>
+	<body>
+		<form id="form" action="/">
+			<h1>Create Account</h1>
+			<h5>Nombre</h5>
+			<div class="form_group">
+				<input class="datafield" type="text" id="username" required/>
+				<div class="validation"><img src="./success-icon.png"></div>
+				<div class="error"><img src="./error-icon.png"></div>
+			</div>
+			<h5>Email</h5>
+			<div class="form_group">
+				<input class="datafield" type="email" id="email" required/>
+				<div class="validation"><img src="./success-icon.png"></div>
+				<div class="error"><img src="./error-icon.png"></div>
+			</div>
+			<h5>Clave</h5>
+			<div class="form_group">
+				<input class="datafield" type="password" id="key" minlength="8" required/>
+				<div class="validation"><img src="./success-icon.png"></div>
+				<div class="error"><img src="./error-icon.png"></div>
+			</div>
+			<h5>Confirme su clave</h5>
+			<div class="form_group">
+				<input class="datafield" type="password" id="keyconfirmation" minlength="8" required/>
+				<div class="validation"><img src="./success-icon.png"></div>
+				<div class="error"><img src="./error-icon.png"></div>
+			</div>
+			<button type="submit">ENVIAR</button>
+		</form>
+	</body>
+</html>
